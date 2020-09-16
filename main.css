@@ -1,0 +1,108 @@
+/* links decoration */
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 100%;
+}
+
+    a:hover {
+    text-decoration: underline;
+
+}
+
+/* top left links */
+
+.topleftparent {
+    display: flex;
+    padding: 20px 0 0 20px;
+      
+}
+
+    .leftchild1 {
+    padding-right: 30px;
+    
+    }
+
+    .leftchild2 {
+        padding-right: 30px;
+        
+        }
+
+/* top right links */
+
+.toprightparent {
+    display: flex;
+    justify-content: flex-end;
+}
+    .rightchild1 {
+    padding-right: 20px;
+
+    }
+    .rightchild2 {
+        padding-right: 20px;
+    }
+    
+
+/* center items */
+
+.logoparent {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.searchbar {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.buttonparent {
+    display: flex;
+    justify-content: center;
+
+}
+    
+    .submitbutton {
+        padding: 10px;
+    }
+
+    .luckybutton {
+        padding: 10px;
+    }
+
+    /* footer */
+
+footer {
+    background: #f2f2f2;
+    position: fixed;
+    padding: 20px 20px 20px 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: solid #e4e4e4 5px;
+}
+
+
+.bottomleft {
+    float: left;
+    display: flex;
+}
+    .leftbottom1 {
+        padding-right: 10px;
+    }
+    .leftbottom2 {
+        padding-right: 10px;
+    }
+
+
+.bottomright {
+    float: right;
+    display: flex;
+}
+.rightbottom1 {
+    padding-right: 10px;
+}
+.rightbottom2 {
+    padding-right: 10px;
+}
